@@ -1,0 +1,38 @@
+/* buyer profile tab */
+.buyer-profile-tab .nav-item .profile-tab-btn{
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+.buyer-profile-tab .nav-item.active .profile-tab-btn{
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: var(--font-color-alt);
+  transition: 0.5s ease;
+}
+
+.buyer-profile-tab .nav-item:hover .profile-tab-btn{
+  background: var(--primary);
+  color: var(--font-color-alt);
+  transition: 0.5s ease;
+}
+
+/* buyer profile */
+.buyer-profile-section{
+  width: 100%;
+  height: auto;
+}
+
+.buyer-profile-section .buyer-profile-img{
+  width: 200px;
+  max-width: calc(100% - 10px);
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 40px 0;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+/* responsive */

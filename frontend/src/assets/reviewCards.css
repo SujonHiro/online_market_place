@@ -1,0 +1,23 @@
+/* review card design */
+.review-box .buyer-img{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.review-box .review{
+  font-size: 13px;
+}
+
+.review-box .commenter{
+  font-size: 15px;
+}
+
+.review-box .comment-text{
+  font-size: 15px;
+}
+.review-box .comment-date{
+  font-size: 13px;
+  color: #cecece;
+}

@@ -1,0 +1,35 @@
+
+.coverSection{
+    background-color: var(--primary);
+    color: white;
+    height: 250px;
+    border-radius: 4px;
+}
+.slideText{
+    animation: 0.8s ease-in-out 0.2s 1 slideInFromLeft;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+
+.cardSection{
+    animation: 0.8s ease-in-out 0.2s 1 slideInFromLeft;
+}
+.redirectLogin{
+    margin: 4px;
+}
+.redirectLogin  {
+    text-decoration: none;
+    color: var(--primary);
+}
+.redirectLogin  Link{
+    cursor: pointer;
+}
+.card-title h3{
+    color: var(--primary);
+}
+
+.faq-box{
+    position: sticky;
+    top: 85px;
+}
